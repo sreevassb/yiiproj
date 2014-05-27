@@ -51,14 +51,20 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
-		$user = new User();
+		/* $user = new User();
 		$user->personal_no = 2;
 		$user->login = 'somelogin';
-		$user->email = 'email@example.com';
+		$user->email = 'email@example.com'; */
+		$criteria = new EMongoCriteria();
+		$criteria->addCond('personal_no', '==', 2);
+		$user = Users::model()->find($criteria);
+		echo $user->email;
+		exit;
 		if(!$user->save()){
 			print_r($user->getErrors());
 			// This will store document with user data into MongoDB collection
 		}
+		
 		
 		/* $model=new ContactForm;
 		if(isset($_POST['ContactForm']))

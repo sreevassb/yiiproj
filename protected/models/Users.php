@@ -1,5 +1,5 @@
  <?php
- class User extends EMongoDocument // Notice: We extend EMongoDocument class instead of CActiveRecord
+ class Users extends EMongoDocument // Notice: We extend EMongoDocument class instead of CActiveRecord
  {
  	public $personal_no;
  	public $login;
@@ -7,6 +7,14 @@
  	public $last_name;
  	public $email;
  
+ 	/**
+ 	 * This method have to be defined in every model, like with normal CActiveRecord
+ 	 */
+ 	public static function model($className=__CLASS__)
+ 	{
+ 		return parent::model($classname);
+ 	}
+ 	
  	/**
  	 * This method have to be defined in every Model
  	 * @return string MongoDB collection name, witch will be used to store documents of this model
@@ -34,11 +42,5 @@
  		);
  	}
  
- 	/**
- 	 * This method have to be defined in every model, like with normal CActiveRecord
- 	 */
- 	public static function model($className=__CLASS__)
- 	{
- 		return parent::model($classname);
- 	}
+ 
  }
