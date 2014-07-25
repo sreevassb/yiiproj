@@ -51,19 +51,69 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
+		$user = new User();
+		$user->personal_no = 4;
+		$user->login = 'somelogin123';
+		$user->email = 'srinu123@example.com';
+		$user->address->city = 'New York';
+		$user->address->street = 'Some street name';
+		
+		// This will save user to users collection, with UserAddress embedded document set,
+		// and this handle with validation of embedded documents too!
+		$user->save();
+		
+		// After that:
+		$user = User::model()->find();
+		
+		// Models will be automatically populated with embedded documents that they contain,
+		// so we can do:
+		echo $user->address->city;
 		/* $user = new User();
-		$user->personal_no = 2;
+		$user->personal_no = 3;
 		$user->login = 'somelogin';
-		$user->email = 'email@example.com'; */
-		$criteria = new EMongoCriteria();
+		$user->email = 'srinu@example.com';
+		$user->address->city = 'New York';
+		$user->address->street = 'Street';
+		$user->address->apartment = 'SriApartment';
+		$user->address->house = 'Nunii';
+		$user->address->zip = 533308; */
+		
+		/* $posDetails = User::model()->findByAttributes(array('personal_no' => 2));
+		echo "<pre>";
+		$address = $posDetails->address;
+		print_r($address);
+		
+		exit; */
+		/* $criteria = new EMongoCriteria();
 		$criteria->addCond('personal_no', '==', 2);
-		$user = Users::model()->find($criteria);
-		echo $user->email;
-		exit;
-		if(!$user->save()){
+		$user = User::model()->find($criteria);
+		echo $user->address->city;
+		exit; */
+		/* $user = User::model()->find($criteria);
+		$user->address->city = 'New York';
+		$user->address->street = 'Radham Street';
+		$user->address->apartment = 'SriApartment';
+		$user->address->house = 'Nuni'; 
+		$user->address->zip = 533308;*/
+	/* 	echo $user->address->zip;
+		exit; */
+		
+		// This will save user to users collection, with UserAddress embedded document set,
+		// and this handle with validation of embedded documents too!
+		/* if(!$user->save()){
+			echo '<pre>';
 			print_r($user->getErrors());
 			// This will store document with user data into MongoDB collection
-		}
+		} */
+		
+		// After that:
+	//	$user = User::model()->find();
+		
+		// Models will be automatically populated with embedded documents that they contain,
+		// so we can do:
+		//echo $user->address->city;
+		
+		
 		
 		
 		/* $model=new ContactForm;

@@ -1290,3 +1290,316 @@ REQUEST_URI=/yiiproj/index.php/site/contact
 in /var/www/yiiproj/protected/models/Users.php (15)
 in /var/www/yiiproj/protected/controllers/SiteController.php (60)
 in /var/www/yiiproj/index.php (13)
+2014/05/27 14:57:43 [error] [php] Undefined variable: classname (/var/www/yiiproj/protected/models/Users.php:15)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/Users.php (15)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:01:34 [error] [php] include(Users.php): failed to open stream: No such file or directory (/var/www/yiiproj/framework/YiiBase.php:423)
+Stack trace:
+#0 /var/www/yiiproj/protected/controllers/SiteController.php(60): spl_autoload_call()
+#1 /var/www/yiiproj/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#4 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#5 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#6 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:02:18 [error] [php] include(Users.php): failed to open stream: No such file or directory (/var/www/yiiproj/framework/YiiBase.php:423)
+Stack trace:
+#0 /var/www/yiiproj/protected/controllers/SiteController.php(60): spl_autoload_call()
+#1 /var/www/yiiproj/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#4 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#5 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#6 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:02:20 [error] [php] include(Users.php): failed to open stream: No such file or directory (/var/www/yiiproj/framework/YiiBase.php:423)
+Stack trace:
+#0 /var/www/yiiproj/protected/controllers/SiteController.php(60): spl_autoload_call()
+#1 /var/www/yiiproj/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#4 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#5 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#6 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:03:25 [error] [php] include(User.php): failed to open stream: No such file or directory (/var/www/yiiproj/framework/YiiBase.php:423)
+Stack trace:
+#0 /var/www/yiiproj/protected/controllers/SiteController.php(60): spl_autoload_call()
+#1 /var/www/yiiproj/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#2 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#4 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#5 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#6 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:17:52 [error] [php] Undefined variable: classname (/var/www/yiiproj/protected/models/User.php:16)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (16)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:18:33 [error] [php] Use of undefined constant users - assumed 'users' (/var/www/yiiproj/protected/models/User.php:16)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (16)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:18:39 [error] [php] Use of undefined constant Users - assumed 'Users' (/var/www/yiiproj/protected/models/User.php:16)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (16)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:18:43 [error] [php] Use of undefined constant User - assumed 'User' (/var/www/yiiproj/protected/models/User.php:16)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (16)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:19:33 [error] [php] Use of undefined constant User - assumed 'User' (/var/www/yiiproj/protected/models/User.php:17)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (17)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:19:55 [error] [php] Undefined variable: classname (/var/www/yiiproj/protected/models/User.php:16)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (16)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:26:38 [error] [php] Undefined variable: classname (/var/www/yiiproj/protected/models/User.php:34)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (34)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:27:31 [error] [php] Undefined variable: classname (/var/www/yiiproj/protected/models/User.php:36)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (36)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:29:00 [error] [php] Undefined variable: classname (/var/www/yiiproj/protected/models/User.php:50)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (50)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 15:31:37 [error] [php] Undefined variable: classname (/var/www/yiiproj/protected/models/User.php:50)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/index.php/site/contact
+in /var/www/yiiproj/protected/models/User.php (50)
+in /var/www/yiiproj/protected/controllers/SiteController.php (60)
+in /var/www/yiiproj/index.php (13)
+2014/05/27 16:39:35 [error] [exception.CException] exception 'CException' with message 'Property "User.adderess" is not defined.' in /var/www/yiiproj/framework/base/CComponent.php:131
+Stack trace:
+#0 /var/www/yiiproj/protected/extensions/YiiMongoDbSuite/EMongoEmbeddedDocument.php(170): CComponent->__get('adderess')
+#1 /var/www/yiiproj/protected/controllers/SiteController.php(67): EMongoEmbeddedDocument->__get('adderess')
+#2 /var/www/yiiproj/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#3 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /var/www/yiiproj/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiiproj/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiiproj/framework/web/CWebApplication.php(283): CController->run('contact')
+#7 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#8 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/yiiproj/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiproj/index.php/site/contact
+---
+2014/07/17 11:57:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in /var/www/yiiproj/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController('contact')
+#1 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/yiiproj/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiproj/contact
+---
+2014/07/17 12:53:20 [error] [exception.CException] exception 'CException' with message 'Property "User.user" is not defined.' in /var/www/yiiproj/framework/base/CComponent.php:131
+Stack trace:
+#0 /var/www/yiiproj/protected/extensions/YiiMongoDbSuite/EMongoEmbeddedDocument.php(170): CComponent->__get('user')
+#1 /var/www/yiiproj/protected/controllers/SiteController.php(66): EMongoEmbeddedDocument->__get('user')
+#2 /var/www/yiiproj/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#3 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /var/www/yiiproj/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiiproj/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiiproj/framework/web/CWebApplication.php(283): CController->run('contact')
+#7 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#8 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/yiiproj/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiproj/contact
+---
+2014/07/17 12:53:29 [error] [exception.CException] exception 'CException' with message 'Property "User.city" is not defined.' in /var/www/yiiproj/framework/base/CComponent.php:131
+Stack trace:
+#0 /var/www/yiiproj/protected/extensions/YiiMongoDbSuite/EMongoEmbeddedDocument.php(170): CComponent->__get('city')
+#1 /var/www/yiiproj/protected/controllers/SiteController.php(66): EMongoEmbeddedDocument->__get('city')
+#2 /var/www/yiiproj/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#3 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /var/www/yiiproj/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /var/www/yiiproj/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yiiproj/framework/web/CWebApplication.php(283): CController->run('contact')
+#7 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#8 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/yiiproj/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiproj/contact
+---
+2014/07/17 12:54:14 [error] [php] Object of class UserAddress could not be converted to string (/var/www/yiiproj/protected/controllers/SiteController.php:66)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#1 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#2 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/contact
+in /var/www/yiiproj/protected/controllers/SiteController.php (66)
+in /var/www/yiiproj/index.php (13)
+2014/07/17 12:56:19 [error] [php] Use of undefined constant house - assumed 'house' (/var/www/yiiproj/protected/controllers/SiteController.php:67)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#1 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#2 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/contact
+in /var/www/yiiproj/protected/controllers/SiteController.php (67)
+in /var/www/yiiproj/index.php (13)
+2014/07/17 12:56:31 [error] [exception.CException] exception 'CException' with message 'Property "UserAddress.0" is not defined.' in /var/www/yiiproj/framework/base/CComponent.php:131
+Stack trace:
+#0 /var/www/yiiproj/protected/extensions/YiiMongoDbSuite/EMongoEmbeddedDocument.php(170): CComponent->__get('0')
+#1 /var/www/yiiproj/framework/base/CModel.php(593): EMongoEmbeddedDocument->__get('0')
+#2 /var/www/yiiproj/protected/controllers/SiteController.php(67): CModel->offsetGet(0)
+#3 /var/www/yiiproj/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#4 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /var/www/yiiproj/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /var/www/yiiproj/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/yiiproj/framework/web/CWebApplication.php(283): CController->run('contact')
+#8 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#9 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/yiiproj/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiproj/contact
+---
+2014/07/17 12:58:27 [error] [php] json_decode() expects parameter 1 to be string, object given (/var/www/yiiproj/protected/controllers/SiteController.php:67)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#2 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#4 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#6 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/contact
+in /var/www/yiiproj/protected/controllers/SiteController.php (67)
+in /var/www/yiiproj/index.php (13)
+2014/07/17 13:00:09 [error] [php] Use of undefined constant house - assumed 'house' (/var/www/yiiproj/protected/controllers/SiteController.php:67)
+Stack trace:
+#0 /var/www/yiiproj/framework/web/CController.php(287): SiteController->runAction()
+#1 /var/www/yiiproj/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#2 /var/www/yiiproj/framework/web/CWebApplication.php(283): SiteController->run()
+#3 /var/www/yiiproj/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /var/www/yiiproj/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /var/www/yiiproj/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiproj/contact
+in /var/www/yiiproj/protected/controllers/SiteController.php (67)
+in /var/www/yiiproj/index.php (13)
